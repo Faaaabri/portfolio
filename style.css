@@ -93,6 +93,7 @@ h1,h2,h3{
     transition: all 0.3s ease;
   }
   
+  
   /* Estilos móviles */
   @media (max-width: 768px) {
 

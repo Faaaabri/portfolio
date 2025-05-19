@@ -18,7 +18,7 @@ const projects = [
   {
     id: 3,
     title: "Tienda online - Club Nacional de Football",
-    description: "Descripción detallada del proyecto 3.",
+    description: "",
     coverImage: "imgs/Nacional_tapa.png",
     tags: ["Figma", "UX/UI"],
     presentationImage: "imgs/proyecto_3_p.jpg"

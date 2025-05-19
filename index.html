@@ -38,7 +38,7 @@
             <div><a href="#" class="cta-button">Contáctame</a></div>
           </nav>
         </div>
-      </header>
+    </header>
 
     <!------- HERO ------->
     
@@ -146,6 +146,18 @@
     <script>
         AOS.init();
     </script>
+
+    <script>
+  document.addEventListener("DOMContentLoaded", function () {
+    const toggleButton = document.querySelector(".menu-toggle");
+    const navLinks = document.querySelector(".nav-links");
+
+    toggleButton.addEventListener("click", function () {
+      navLinks.classList.toggle("open");
+    });
+  });
+</script>
+
 
     <script src="main.js"></script>
 
