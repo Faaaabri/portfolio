@@ -740,10 +740,11 @@ footer .social-media{
 
     .modal-tags{
         margin: 1rem 0rem 2rem 0rem;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: start;
+        display: flex;
+        flex-wrap: wrap;
+
+        align-items: start;
+        row-gap: 1rem;
     }
 
     #close-modal {
@@ -751,7 +752,7 @@ footer .social-media{
     border: 2px solid var(--negro);
     font-size: 1.5rem;
     cursor: pointer;
-    padding: .5rem;
+    padding: 1rem;
     border-radius: 20rem;
     margin: 0;
     /* overflow: hidden; */
