@@ -49,7 +49,6 @@ h1,h2,h3{
     position: relative;
     z-index: 10;
   }
-  
 
   
   .nav-links {
@@ -106,6 +105,8 @@ h1,h2,h3{
       width: 35px; 
       height: 25px;
     }
+
+
   
     .nav-links {
       position: absolute;
@@ -114,6 +115,7 @@ h1,h2,h3{
       right: 0;
       background: white;
       flex-direction: column;
+      height: 70vh;
       padding: 1rem 2rem;
       max-height: 0;
       overflow: hidden;
@@ -212,6 +214,7 @@ nav a{
 
 .text-components p{
     max-width: 60%;
+    font-weight: bold;
     margin: 2rem auto;
 }
 
